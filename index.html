@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>food</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script type="text/javascript">
+
+      //Menu toggle-buttons
+
+      $(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+          $("nav ul").toggleClass("showing");
+        });
+      });
+
+      //Scrolling Effect
+
+      $(window).on('scroll', function() {
+        if($(window).scrollTop()) {
+          $('nav').addClass('black');
+        } else {
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <nav>
+          <div class="menu-icon">
+            <i class="glyphicon glyphicon-menu-hamburger"></i>
+          </div>
+          <div class="logo"><img src="img/logo.png" alt="bread with pinkish color"></div>
+          <div class="menu">
+            <ul>
+              <li><a href="#features">Services</a></li>
+              <li><a href="#mobile">Pastry Orders</a></li>
+              <li><a href="#cities">Our Cities</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#form">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="hero">
+          <h1>Making your <br>sweetest dreams come true</h1>
+          <div class="front-buttons">
+            <a href="#pastry" class="btn btn-half">Show me more</a>
+            <a href="#mobile" class="btn btn-full">I'm hungry</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="features">
+      <h3 class="text-center">Get fresh and sweet pastries</h3>
+      <p class="copy">Dessert macaroon candy canes cake cake croissant pie. Tootsie roll jelly-o dragée. Dessert fruitcake lemon drops cheesecake. Tart pudding wafer. Biscuit jelly I love brownie donut. Jelly beans tiramisu macaroon.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <i class="fas fa-cookie"></i>
+            <h4>Fresh Pastries</h4>
+            <p class="arranging">I love marshmallow cake cake sugar plum I love croissant candy. I love Cookie jujubes liquorice dragée plus icing cheesecake caramels I love gingerbread. Jelly-o brownie.</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-stroopwafel"></i>
+            <h4>Sweet Pastries</h4>
+            <p class="arranging">I love marshmallow cake cake sugar plum I love croissant candy. I love Cookie jujubes liquorice dragée plus icing cheesecake caramels I love gingerbread. Jelly-o brownie.</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-birthday-cake"></i>
+            <h4>Fresh Pastries</h4>
+            <p class="arranging">I love marshmallow cake cake sugar plum I love croissant candy. I love Cookie jujubes liquorice dragée plus icing cheesecake caramels I love gingerbread. Jelly-o brownie.</p>
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-coffee"></i>
+            <h4>Sweet Pastries</h4>
+            <p class="arranging">I love marshmallow cake cake sugar plum I love croissant candy. I love Cookie jujubes liquorice dragée plus icing cheesecake caramels I love gingerbread. Jelly-o brownie.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pastry">
+      <ul class="pastry-showcase clearfix">
+        <li>
+          <figure class="pastry-photo">
+            <img src="img/pastry-1.jpg" alt="cupcakes with blueberries and small cookie">
+          </figure>
+        </li>
+        <li>
+          <figure class="pastry-photo">
+            <img src="img/pastry-2.jpg" alt="pirate cupcakes">
+          </figure>
+        </li>
+        <li>
+          <figure class="pastry-photo">
+            <img src="img/pastry-3.jpg" alt="gold and silver pop cakes">
+          </figure>
+        </li>
+        <li>
+          <figure class="pastry-photo">
+            <img src="img/pastry-4.jpg" alt="shortcake with cococa powder">
+          </figure>
+        </li>
+        <li>
+          <figure class="pastry-photo">
+            <img src="img/pastry-5.jpg" alt="strawberry tarts">
+          </figure>
+        </li>
+        <li>
+          <figure class="pastry-photo">
+            <img src="img/pastry-6.jpg" alt="colorful macarons">
+          </figure>
+        </li>
+        <li>
+          <figure class="pastry-photo">
+            <img src="img/pastry-7.jpg" alt="thin cinnamon buns">
+          </figure>
+        </li>
+        <li>
+          <figure class="pastry-photo">
+            <img src="img/pastry-8.jpeg" alt="colorful donuts">
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <section id="mobile">
+      <h3 class="text-center">HOW IT WORKS, AS SIMPLE AS 1-2-3</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="iphone-img">
+              <img src="img/iphone.png" alt="iphone 6/7 with company logo">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="steps">
+              <div>1</div>
+              <p>Sweet roll sesame snaps sugar plum cake cupcake gummies. Croissant brownie marzipan I love tart marzipan toffee cookie sesame snaps. Lemon drops oat cake brownie tiramisu lollipop cotton candy carrot cake fruitcake cheesecake.</p>
+              <div>2</div>
+              <p>Sweet roll sesame snaps sugar plum cake cupcake gummies. Croissant brownie marzipan I love tart marzipan toffee cookie sesame snaps. Lemon drops oat cake brownie tiramisu lollipop cotton candy carrot cake fruitcake cheesecake.</p>
+              <div>3</div>
+              <p>Sweet roll sesame snaps sugar plum cake cupcake gummies. Croissant brownie marzipan I love tart marzipan toffee cookie sesame snaps. Lemon drops oat cake brownie tiramisu lollipop cotton candy carrot cake fruitcake cheesecake.</p>
+              <a href="#"><img src="img/apple.png" alt="apple store download button"></a>
+              <a href="#"><img src="img/google.svg" alt="google store download button"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cities">
+      <h3 class="text-center">WE ARE LOCATED IN THESE CITIES</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/san-fran.jpeg" alt="san francisco city">
+            <h4>San Francisco</h4>
+            <p><i class="fas fa-cog"></i> 1000+ Happy Customers</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/seattle.jpeg" alt="seattle city">
+            <h4>Seattle</h4>
+            <p><i class="fas fa-cog"></i> 1000+ Happy Customers</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/nyc.jpeg" alt="new york city">
+            <h4>New York</h4>
+            <p><i class="fas fa-cog"></i> 1000+ Happy Customers</p>
+          </div>
+          <div class="col-md-3">
+            <img src="img/london.jpeg" alt="london city">
+            <h4>London</h4>
+            <p><i class="fas fa-cog"></i> 1000+ Happy Customers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials">
+      <h3 class="text-center">OUR CUSTOMERS LOVE US</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <p>I love chocolate chocolate bar sugar plum sweet oat cake I love. Fruitcake caramels liquorice bonbon macaroon toffee cheesecake. Jelly beans toffee marzipan oat cake. Tart marzipan I love danish pudding marshmallow chocolate. Pie tiramisu caramels croissant cookie halvah. Cake gingerbread biscuit donut.</p>
+            <cite><img src="img/man2.jpeg" alt="man with glasses"> Harold Kane</cite>
+          </div>
+          <div class="col-md-4">
+            <p>I love chocolate chocolate bar sugar plum sweet oat cake I love. Fruitcake caramels liquorice bonbon macaroon toffee cheesecake. Jelly beans toffee marzipan oat cake. Tart marzipan I love danish pudding marshmallow chocolate. Pie tiramisu caramels croissant cookie halvah. Cake gingerbread biscuit donut.</p>
+            <cite><img src="img/lady.jpeg" alt="beautiful lady"> Avery Downs</cite>
+          </div>
+          <div class="col-md-4">
+            <p>I love chocolate chocolate bar sugar plum sweet oat cake I love. Fruitcake caramels liquorice bonbon macaroon toffee cheesecake. Jelly beans toffee marzipan oat cake. Tart marzipan I love danish pudding marshmallow chocolate. Pie tiramisu caramels croissant cookie halvah. Cake gingerbread biscuit donut.</p>
+            <cite><img src="img/man.jpeg" alt="man with glasses"> Kyle Nichols</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="form">
+      <div class="container">
+        <h3 class="text-center">LEAVE US A MESSAGE</h3>
+        <div class="row gap">
+          <div class="col-md-4">
+            <input type="text" placeholder="Name" class="form-control"><br>
+            <input type="email" placeholder="Email" class="form-control"><br>
+            <input type="phone" placeholder="Phone" class="form-control">
+          </div>
+          <div class="col-md-8">
+            <textarea class="form-control" rows="8" cols="80" placeholder="Enter comments here..."></textarea>
+            <button class="btn btn-block">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <nav>
+          <ul>
+            <li><a href="#features">Services</a></li>
+            <li><a href="#mobile">Pastry Orders</a></li>
+            <li><a href="#cities">Our Cities</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#form">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="name">
+          <p>Created by: Andriy Koren <a class="github" href="https://github.com/" target="_blank"><i class="fab fa-github"></i>
+
+</p>
+        </div>
+    </footer>
+  </body>
+</html>
